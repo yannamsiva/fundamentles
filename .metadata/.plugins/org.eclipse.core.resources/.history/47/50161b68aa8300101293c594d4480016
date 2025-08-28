@@ -1,0 +1,35 @@
+package fundamentals;
+
+public class BankAccount {
+//non-static varibles
+	String bankname;
+
+    String accountHolderName;
+
+    double balance;
+
+	  public static void main(String args[]) {
+//local varibles
+
+	  }
+
+	  void display(){
+
+	    System.out.println("Bsnknsme: " +bankname + "balance: " + balance)
+
+	}
+
+	
+	 
+	 
+	BankAccount a = new BankAccount();
+
+	BankAccount b = new BankAccount();
+	 
+	a.bankname = "NepalBank"
+
+	a.balance = 10000000000
+	 
+	a.display()
+	 
+}
